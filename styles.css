@@ -1,0 +1,118 @@
+.hero {
+  background: url('https://via.placeholder.com/1920x600') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#nav #navbarNav a {
+  font-weight: bolder;
+  transition: 0.3s ease;
+}
+
+#nav a {
+  font-weight: bolder;
+}
+
+#nav #navbarNav a:hover {
+  background-color: rgb(82, 82, 82);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.collections img {
+  border-radius: 10px;
+}
+
+.footer {
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+#mainy img {
+  height: 400px;
+  width: 300px;
+}
+
+.product-card img {
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+  transform: scale(1.05);
+}
+
+.product-card .card-body {
+  text-align: center;
+}
+
+.filter-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#conshop {
+  border: 1px solid #a1a1a1c7;
+  border-radius: 20px;
+}
+
+/* تعديل لون الأيقونات إلى الرصاصي */
+.feature-card .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.feature-card .icon i {
+  font-size: 2rem;
+  color: #6c757d; /* لون رصاصي */
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+/* إضافة أنماط للأيقونات في التذييل */
+.social-icons a {
+  color: #6c757d !important;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #495057 !important;
+}
+
+/* تعديل لون أيقونات القائمة */
+.navbar-nav .fa-solid {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover .fa-solid {
+  color: #495057;
+}
